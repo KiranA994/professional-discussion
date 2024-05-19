@@ -1,0 +1,501 @@
+@font-face {
+  font-family: 'Georgia';
+  src: url('./font/Georgia.woff') format('woff');
+}
+
+.search-circle{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:5px solid black; 
+  cursor: pointer;
+}
+
+.join-program:hover{
+  background-color: pink !important;
+  color: black !important;
+}
+
+.navbar-brand{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Public Sans", sans-serif;
+}
+
+.forum{
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Public Sans", sans-serif;
+}
+
+.discuss{
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Georgia";
+}
+
+.engage{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Public Sans", sans-serif;
+}
+
+.engage-italics{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Georgia";
+  font-style: italic;
+}
+
+.topics{
+  border-radius: 20px;
+}
+
+.view:hover{
+  background-color: pink !important;
+  color: black !important;
+}
+
+.arrow{
+  animation: jumpInfinite 1.5s infinite;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.topic-search{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-left: -45px;
+  margin-top:6px;
+  cursor: pointer;
+}
+.start-discuss{
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Public Sans", sans-serif; 
+}
+
+.view-topics{
+  width: 51px;
+  height: 35px;
+  border-radius: 25px;
+  background: #BEDFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container{
+  background-color: #FFF9E3;
+}
+
+.searched{
+  width: 323px;
+  height: 145px;
+  border-radius: 10px;
+  background-color: #161226;
+  cursor: pointer;
+}
+
+.searched:hover{
+  background-image: linear-gradient(to bottom, indigo, red);
+  cursor: pointer;
+}
+
+
+.searched-content{
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Georgia";
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+.discussion{
+  font-size: 11px;
+  font-weight: 300px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.red-box{
+  width:17px;
+  height: 12px;
+  border-radius: 1px;
+  background-color: #B31942;
+}
+
+.date{
+  font-family: "Public Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.all-topics{
+  background-color: #BEDFFF;
+  display: flex;
+  border-radius: 39px;
+}
+
+.question{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Public Sans", sans-serif; 
+  text-wrap:nowrap;
+}
+
+.responses{
+  background-color: #F2EFFF;
+  border-radius: 40px;
+  width: 148px;
+  height: 42px;
+  text-wrap:nowrap;
+}
+
+.res{
+font-family: "Public Sans", sans-serif; 
+font-size: 9px;
+font-weight: 500;
+
+}
+
+.contributor{
+font-family: 'Georgia';
+font-size: 24px;
+font-weight: 400;
+text-align: center;
+}
+
+.week{
+font-family: 'Georgia';
+font-size: 24px;
+font-style: italic;
+font-weight: 400;
+text-align: center !important;
+}
+
+.jishnu{
+font-family: "Public Sans", sans-serif;
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+}
+
+.mask-group-button{
+  background-image: linear-gradient(to bottom, indigo, #db1616);
+}
+
+.load{
+  border-radius: 43px;
+  border: 1px solid #0A090E;
+  background-color: white;
+  color: black;
+}
+
+.load:hover{
+  background-color: black;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 1200px){
+  .avatar-five{
+    margin-left: -26px !important;
+  }
+
+  .hey{
+    margin-left: 970px !important;
+    margin-top: -20px !important;
+  }
+
+
+  .avatar-seven{
+    margin-left: -726px !important;
+    margin-top: 226px !important;
+  }
+
+  .avatar-eight{
+    margin-top: 232px !important;
+    margin-left: 40px !important;
+  }
+
+  .awsome{
+    margin-left: 454px !important;
+    margin-top: 266px !important;
+  }
+
+  .e-book{
+    margin-left: -86px !important;
+  }
+ 
+} 
+
+
+@media screen and (max-width:1120px){
+
+  .avatar-five{
+    margin-left: -26px !important;
+  }
+
+  .hey{
+    margin-left: 970px !important;
+    margin-top: -20px !important;
+  }
+
+
+  .avatar-seven{
+    margin-left: -726px !important;
+    margin-top: 226px !important;
+  }
+
+  .avatar-eight{
+    margin-top: 232px !important;
+    margin-left: 40px !important;
+  }
+
+  .awsome{
+    margin-left: 454px !important;
+    margin-top: 266px !important;
+  }
+
+  .all-topics{
+    left: 464px !important;
+  }
+
+  .question{
+    text-wrap: wrap !important;
+  }
+
+  .e-book{
+    margin-left: -106px !important;
+}
+
+} 
+
+
+@media screen and (max-width: 768px) {
+  .avatar-two{
+    margin-top: 10px !important;
+    margin-left: 52px !important;
+  }
+
+  .avatar-three{
+    margin-top: 5px !important;
+  }
+
+  .avatar-four{
+    margin-left: -655px !important;
+    margin-top: 190px !important;
+  } 
+
+  .mask-group {
+    margin-left: 64px !important;
+}
+
+  .avatar-five{
+    margin-top: 194px !important;
+    margin-left: 64px !important;
+  }
+
+  .avatar-six{
+    margin-top: 200px !important;
+    margin-left: 48px !important;
+  }
+
+  .avatar-seven{
+    margin-left: -506px !important; 
+margin-top: 370px !important;
+  }
+
+  .avatar-eight{
+    margin-top: 368px !important;
+    margin-left: 40px !important;
+  }
+ 
+    .how {
+      margin-left: 384px !important;
+      margin-top: 26px !important;
+  }
+  
+
+  .that-it{
+    margin-left: 6px !important;
+    margin-top: 210px !important;
+}
+
+  .hey{
+    margin-left: 628px !important;
+    margin-top: 226px !important;
+}
+
+    .awsome{
+      margin-left: 314px !important;
+      margin-top: 400px !important;
+    }
+
+
+    .serached-ones{
+      flex-direction: column !important;
+    }
+
+    .searched{
+      margin-top: 10px !important;
+      margin-left: 188px !important;
+    }
+
+    .question-info{
+      flex-direction: column !important;
+    }
+
+    .question{
+      text-wrap: wrap !important;
+    }
+
+    .responses{
+      margin-bottom: 10px !important;
+    }
+
+
+    .e-book{
+      margin-left: 50px !important;
+    }
+
+    .all-topics{
+      left: 615px !important;
+      top: 8px !important;
+    }
+} 
+
+@media screen and (max-width:600px) {
+  .topics{
+    width:50% !important;
+  }
+
+  .links{
+    margin-left: 4px !important;
+  }
+
+  .avatar-block{
+    flex-direction: column;
+  }
+
+  .avatar-logos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .avatar-two{
+    margin-top: 10px !important;
+    margin-left: 52px !important;
+  }
+
+  .avatar-three{
+    margin-top: 5px !important;
+  }
+
+  .avatar-four{
+    margin-left: 56px !important;
+    margin-top: 38px !important;
+  } 
+
+  .avatar-five{
+    margin-top: 8px !important;
+    margin-left: 50px !important;
+  }
+
+  .avatar-six{
+    margin-top: 12px !important;
+    margin-left: 48px !important;
+  }
+
+  .avatar-seven{
+    margin-top: 14px !important;
+    margin-left: 48px !important;
+  }
+
+  .avatar-eight{
+    margin-top: 14px !important;
+  }
+
+  .how{
+    margin-left: 220px !important;
+    margin-top: 230px !important;
+  }
+
+  .that-it{
+    margin-left: 56px !important;
+    margin-top: 600px !important;
+  }
+
+  .hey{
+    margin-left: 200px !important;
+    margin-top: 1000px !important;
+    }
+
+    .awsome{
+      margin-left: 22px !important;
+    margin-top: 1400px !important;
+    }
+
+    .serached-ones{
+      flex-direction: column !important;
+    }
+
+    .searched{
+      margin-top: 10px !important;
+      margin-left: -23px !important;
+    }
+
+    .question-info{
+      flex-direction: column !important;
+    }
+
+    .question{
+      text-wrap: wrap !important;
+    }
+
+    .responses{
+      margin-bottom: 10px !important;
+    }
+
+    .join-community{
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    .e-book{
+      margin-left: -104px !important;
+    }
+
+    .all-topics{
+      left: 16px !important;
+    top: 68px !important;
+    }
+
+    .search-topics{
+      margin-top: 30px !important;
+    }
+}
